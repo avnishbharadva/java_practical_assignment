@@ -1,5 +1,7 @@
 package MyPackage;
 
+import java.util.Scanner;
+
 interface Exam
 {
     boolean Pass(int mark);
@@ -10,8 +12,33 @@ interface Classify
 }
 class Result implements Exam,Classify
 {
-    private int arr[] = new int[3];
-    private int avg;
+    public int mark;
+    public int avg;
+
+    public Result()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Mark : ");
+        mark = sc.nextInt();
+        System.out.print("Enter Average : ");
+        avg = sc.nextInt();
+    }
+    public int getMark()
+    {
+        return mark;
+    }
+    public void setMark(int m)
+    {
+        this.mark = m;
+    }
+    public int getAverage()
+    {
+        return avg;
+    }
+    public void setAverage(int a)
+    {
+        this.avg = a;
+    }
     public boolean Pass(int mark)
     {
         if(mark >= 50){
@@ -33,8 +60,22 @@ class Result implements Exam,Classify
             return "No Division";
         }
     }
+    public String toString()
+    {
+        return "Mark : " + this.mark + "\nAverage : " + this.avg;
+    }
 }
 class Pro5 
 {
-    
+    public static void main(String[] args) {
+        try {
+            Result r = new Result();
+            System.out.println(r.Pass(r.mark));
+            System.out.println(r.Division(r.avg));
+            System.out.println("================================");
+            System.out.println(r);
+        } catch (Exception e) {
+            System.out.println("Error Occured : " + e.getMessage());
+        }
+    }
 }

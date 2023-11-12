@@ -9,24 +9,7 @@ abstract class Figure
     abstract double area();
     abstract double perimeter();
 }
-class Rectangle extends Figure
-{
-    private double length,width;
 
-    public Rectangle(double len,double wid)
-    {
-        this.length = len;
-        this.width = wid;
-    }
-    public double area()
-    {
-        return this.length*this.width;
-    }
-    public double perimeter()
-    {
-        return 2*(this.length*this.width);
-    }
-}
 class Circle extends Figure
 {
     private double radius;
@@ -44,24 +27,49 @@ class Circle extends Figure
         return 2*PI*this.radius;
     }
 }
-class Test 
-{
+class Rectangle extends Figure {
+    private double length, width;
+
+    public Rectangle(double len, double wid) {
+        this.length = len;
+        this.width = wid;
+    }
+
+    public double area() {
+        return this.length * this.width;
+    }
+
+    public double perimeter() {
+        return 2 * (this.length * this.width);
+    }
+}
+
+class Test {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Length for Rectangle : ");
-        double l = sc.nextDouble();
-        System.out.print("Enter Width for Rectangle : ");
-        double w = sc.nextDouble();
-        Rectangle r = new Rectangle(l, w);
-        System.out.println("Area of Rectangle : " + r.area());
-        System.out.println("Perimeter of Rectangle : " + r.perimeter());
+        try {
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter Length for Rectangle : ");
+            double l = sc.nextDouble();
+            System.out.print("Enter Width for Rectangle : ");
+            double w = sc.nextDouble();
+            Figure f1;
+            Rectangle r = new Rectangle(l, w);
+            f1 = r;
+            System.out.println("Area of Rectangle : " + f1.area());
+            System.out.println("Perimeter of Rectangle : " + f1.perimeter());
 
-        System.out.println("====================================");
+            System.out.println("====================================");
 
-        System.out.print("Enter Radius for Circle : ");
-        double ra = sc.nextDouble();
-        Circle c = new Circle(ra);
-        System.out.println("Area of Circle : " + c.area());
-        System.out.println("Perimeter of Circle : " + c.perimeter());
+            System.out.print("Enter Radius for Circle : ");
+            double ra = sc.nextDouble();
+            Figure f2;
+            Circle c = new Circle(ra);
+            f2 = c;
+            System.out.println("Area of Circle : " + f2.area());
+            System.out.println("Perimeter of Circle : " + f2.perimeter());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
     }
 }

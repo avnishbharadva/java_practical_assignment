@@ -1,3 +1,36 @@
+/* Write a JAVA program which performs the following tasks
+i) Declare a class “Amazon_item” which has instance variable
+item_id (int), product_type( Textile/shoe/cosmetics), item_name (String),
+Methods: item_display_price (int), item_net_price (int).
+This class has appropriate constructors, abstract methods
+calculate_net_price() and display_price().
+ii) Declare 2nd class “cloth_item” derived from “Amazon_item”
+which has extra instance variable texture_type
+(Cotton/silk/synthetic).
+
+It has overridden methods with same prototype and parameterized
+constructors.
+calculate_net_price() method calculates final discounted selling price, that
+much amount, customer has to pay.
+(if price value is more than 5000/-, discount will be 15% from
+item_display_price.
+if price value is more than 4000/-, discount will be 10% from
+item_display_price,
+if price value is more than 3000/-, discount will be 5% from
+item_display_price,
+else No discount).
+display() method displays all data of a “cloth_item” objects.
+iii) Declare 3rd “main_application” class which declares two
+“Amazon_item” object references which refer to “cloth_item”
+objects.
+Call appropriate constructors for two cloth_item objects.
+Accept item_id, product_type, item_name and item_display_price from
+keyboard for 2 objects.
+Calculate item_net_price for these two “cloth_item” objects and display their
+data including their net_price (final discounted selling price).
+Add Exception handling code where ever it required
+Override toString method in every class. */
+
 import java.util.Scanner;
 
 abstract class Amazon_item

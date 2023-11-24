@@ -1,3 +1,12 @@
+/* Create Package “Shape” under which create following class structure.
+Describe abstract class called Shape which has three subclasses say Triangle,
+Rectangle, and Circle. Define one method area () in the abstract class and
+override this area () in these three subclasses to calculate for specific
+object i.e. area () of Triangle subclass should calculate area of triangle etc.
+Same for Rectangle and Circle.
+Add exception handling code wherever it requires.
+Override toString method in every class. */
+
 package Shape;
 
 import java.util.Scanner;

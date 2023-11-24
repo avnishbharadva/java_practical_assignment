@@ -1,3 +1,15 @@
+/* Write the following program.
+1. Create a class “Account” containing accountNo, and balance as data members.
+2. Derive the Account class into two classes named “Savings” and “Current”. The
+“Savings” class should contain a data member named interestRate, and the
+“Current” class should contain a data member called overdraftLimit.
+3. Create appropriate member functions for all the classes to enable functionalities
+to check balance, deposit, and withdraw amount in Savings and Current account.
+[Ensure that the Account class cannot be instantiated.]
+Scan the data from user side.
+4. override toString() method in class.
+5. Add Exception handling code where ever it required */
+
 import java.util.Scanner;
 
 class Account

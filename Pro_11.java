@@ -1,3 +1,18 @@
+/* Write a JAVA program which performs the following tasks.
+i) Declare a class “Bank_account” which has variables
+Account_id,mobile_number, account_holder_name, account_type,
+account_balance.Credit_limit
+Methods are as follows:
+Overloaded constructors and update_account()
+Create an application which takes Account_id as an input.
+Account detail information are retrieved from the array and displayed into
+display screen.
+Declare an array of references of “BC_account” and then store the values of
+all “Bank_account” objects.
+Scan the data from user side.
+override toString() method in every class.
+Add Exception handling code where ever it required */
+
 import java.util.Scanner;
 
 class Bank_account {

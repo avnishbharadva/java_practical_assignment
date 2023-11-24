@@ -1,3 +1,14 @@
+/* Create a package named MyPackage which consists of following classes: 
+
+1. Describe abstract class called Shape which has three subclasses.
+Triangle, Rectangle, and Circle.
+2.Define one method area () in the abstract class and override this area () in these three
+subclasses to calculate for specific object i.e. area () of Triangle subclass should calculate
+area of triangle etc. Same for Rectangle and Circle.
+3. Override toString() method for all classes.
+4. access the object of all class from the reference variable of shape class.
+5. Add Exception handling code where ever it required */
+
 package MyPackage1;
 
 abstract class Shape

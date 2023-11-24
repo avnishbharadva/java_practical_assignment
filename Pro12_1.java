@@ -1,3 +1,17 @@
+/* Write a JAVA program which performs the following tasks.
+i) A class named “Bill” which has instance variable like
+Bill_id, array of item_price, total_number_of_items,
+total_amount.
+“Bill” class has appropriate constructors and calculate_total_amount().
+Calculate_total_amount() is computed based on sum of item_price.
+ii) Create an application which allows entering all information
+related with “Bill” except total_amount.
+iii) Thow exception for –ve total_amount.
+Scan the data from user side.
+
+iv)Add Exception handling code wherever it required.
+v) Override toString method in every class. */
+
 import java.util.Scanner;
 
 class NegativeTotalAmountException extends Exception

@@ -1,3 +1,17 @@
+/* Write a JAVA program which performs the following tasks
+Create a package named MyPackage which consists of following classes:
+1 A class Person to store information like first name, last name and age. The class must
+contain appropriate get, set and display () methods. Create proper constructor.
+2 Now Inherit the class Employee from the class Person to store information like employee
+ID, designation and salary of the employee. The class must contain appropriate get, set
+and display () methods. Create proper constructor
+3 Now Inherit the class Student from Person to store information like roll number, address
+and percentage of the student. The class must contain appropriate get, set and display ()
+methods. Create proper constructor
+4 Crete object of Student and Employee class in Test class.
+5 Person class must not be instantiate and it contains display() method.
+6. Add Exception handling code where ever it required */
+
 package MyPackage1;
 
 import java.util.Scanner;

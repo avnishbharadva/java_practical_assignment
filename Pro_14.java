@@ -1,3 +1,16 @@
+/* Create “Bank” package under which create following classes.
+1.Create a class “BankAccount” containing accountNo, and balance as data members.
+2.Derive the Account class into two classes named “Savings” and “Current”.
+3.The “Savings” class should contain a data member named interestRate,
+and the “Current” class should contain a data member called overdraftLimit.
+4.Create appropriate member functions for all the classes to enable.
+functionalities to check balance, deposit, and withdraw amount in Savings.
+and Current account.
+[Ensure that the BankAccount class cannot be instantiated.]
+a subclass constructor invokes the constructor of the super class and instantiate the values.
+5. Add exception handling code wherever it requires.
+6. Override toString method in every class. */
+
 package Bank;
 
 import java.util.Scanner;

@@ -1,3 +1,30 @@
+/* Write a JAVA program to perform the following.
+Create “Person” package under which create following classes.
+i) Declare an abstract class “Person”. Instance variables are as below:
+name – String
+salary – double
+Methods are as follows:
+Overloaded constructors
+Abstract method: hike_Salary(double percentage)
+Display_data()
+ii) Declare class “Employee” which is inherited from “Person”.
+Override hike_Salary(double percentage): method in this class
+such that the employee’s salary is incremented by percentage
+which is passed as parameter.
+Throw exception if percentage which is passed, is negative.
+iii) Declare class “Manager” which is inherited from “Employee”.
+Override hike_Salary(double percentage) method such that manager’s salary
+is incremented by the percentage passed as parameter and additional 5000 is
+added as bonus.
+iv) Declare “Application_per” class. Within this class, declare
+Person array.
+Create objects of “Employee”, “Manager” and store the references of objects
+into above mentioned array.
+Call hike_Salary(double percentage) method and display_data() for all
+objects.
+Add Exception handling code wherever it required
+V) Override toString method in every class. */
+
 package Person;
 
 class NegativePercentageException extends Exception {

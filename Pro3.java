@@ -1,3 +1,14 @@
+/* Create a package named MyPackage which consists of following classes:
+1. Create a class “Rectangle” that would contain length and width as data members.
+2. Define constructors [constructor overloading (default, parameterized and copy)] to
+initialize the data members.
+3. Define the member functions to find area and to display the number of objects created.
+[Note: define initializer block, static initializer block and the static data member and
+member function. Also demonstrate the sequence of execution of initializer block and
+static initializer block]
+4. Override toString() method in every class.
+5. Add Exception handling code where ever it required */
+
 package MyPackage;
 
 class Rectangle

@@ -1,3 +1,26 @@
+/* Write a JAVA program which performs the following tasks
+Create a package named “geometry” which consists of following classes. An abstract class
+named “figure” which has final variable PI. The class should also contain abstract method
+called area () and perimeter ().
+Another class called “Rectangle” which is derived from “figure” class. It has instance
+variable width and length. The class should also contain parameterized constructor named
+“Rectangle”. It should also override method area () [(width*length)].
+Another class called “Circle” which is derived from “figure” class. Also, it has extra instance
+variable radius. The class should also contain parameterized constructor named Circle.
+It should also override method area () [PI* radius*radius] and perimeter () [2*PI*radius].
+Create a class Test (class which has main ()) to perform required operation by getting
+values for “Rectangle” and “Circle” objects based on your input choice.
+
+Create four references of “figure” class which refer “Rectangle” and “Circle” objects based
+on input choice (“C” for circle/ “R” for “Rectangle”).
+Call area () for all four objects and perimeter () only for “circle” objects and also display
+area and perimeter of the objects.
+Create a package “shape” in which “Circle” and “Test” are declared.
+There are two packages.
+1st package “geometry” contains “figure” and “Circle”,
+2nd package “shape” contains “Rectangle” and “Test”.
+Add Exception handling code where ever it required */
+
 package Geometry;
 
 import java.util.Scanner;

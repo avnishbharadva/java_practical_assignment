@@ -1,3 +1,18 @@
+/* Create a package named “MCA” which consists of following classes:
+A class named “student” which has instance variables student_id, student_name,
+address, array of marks of size 3 and grade. The class must contain appropriate
+constructor.
+This class has method calculate_grade() which calculates grade.
+(After adding array of marks and project marks, if student will get
+above 90%, she/he scores A+, above 80%, he scores A, above 70%, he scores B+,
+above 60%, he scores B, above 50%, he scores C, else C).
+Create a class “Subject” inherit it from student class. the class has instance variables like
+subject_id,Subject_name,elective(boolean).
+Write appropriate constructors and get() set() methods.
+Scan the data from user side.
+override toString() method in the class.
+Add Exception handling code where ever it required */
+
 package MCA;
 
 import java.util.Scanner;

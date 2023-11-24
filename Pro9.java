@@ -1,3 +1,13 @@
+/* Create a package named “Mypackage” which consists of following classes:
+A class named “Supplier” which has instance variables sup_id, sup_name, address, array of
+product_name of size 3 and array of price_of_product of size 3 and total_price. The class
+must contain appropriate constructor.
+This class has method calculate_total_price() which calculates total price (total_price) of
+three Products.
+Scan the data from user side.
+override toString() method in the class.
+Add Exception handling code where ever it required */
+
 package MyPackage;
 
 import java.util.Scanner;

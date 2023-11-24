@@ -1,3 +1,17 @@
+/* Write a JAVA program which performs the following tasks
+A Create a package named MyPackage which consists of following classes:
+1 A class names Person to store information like first name, middle name, last name,
+address and aget. The class must contain appropriate get and set methods
+2 create a class student and inherit person class. override toString() method.class stores
+information loke rollno,Division,dateofBirth etc.
+3 create a class employee and inherit person class. override toString() method.class stores
+information loke empid,da,hra and net salary. Override toString() method.
+Scan all the data using scanner class.
+4 Override toString() and CompareTo() methods in student class.
+5 Create array list add 5 objects of student in array list and sort it by rollno.
+6. Create array list add 5 objects of employee in array list and sort it by netsalary.
+7.Add Exception handling code where ever it required. */
+
 package MyPackage;
 
 import java.util.ArrayList;

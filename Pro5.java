@@ -1,3 +1,16 @@
+/* Create a package named MyPackage which consists of following classes:
+1. Write a java program to implement an interface called Exam with a method Pass (int
+mark) that returns a boolean.
+2. Write another interface called Classify with a method Division (int average) which
+returns a String. Write a class called Result which implements both Exam and Classify. The
+Pass method should return true if the mark is greater than or equal to 50 else false.
+3. The Division method must return “First” when the parameter average is 60 or more,
+“Second” when average is 50 or more but below 60, “No division” when average is less
+than 50.
+4. write code for constructor and get , set method.
+5. override toString() method in the class.
+6. Add Exception handling code where ever it required */
+
 package MyPackage;
 
 import java.util.Scanner;

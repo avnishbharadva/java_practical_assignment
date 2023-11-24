@@ -1,3 +1,21 @@
+/* Write a JAVA program which performs the following tasks
+i) Create a package named “GTU” which consists of following classes:
+ii) A class named “Supplier” which has instance variables sup_id, sup_name, address ,
+array of product_name of size 3 and array of price_of_product of size 3 and total_price.
+The class must
+contain appropriate constructor.
+This class has method calculate_total_price() which calculates total price
+(total_price) of three Products.
+iii) Class named “book_supplier” is derived from “Supplier” . It has
+instance variable array of “discount” of int type. Override
+calculate_total_price() after calculating discounted value from
+original price.
+iv) Create an application for creating objects of “Supplier” and call
+calculate_total_price() for displaying total_price.
+Scan the data from user side.
+Add Exception handling code where ever it required
+v) Override toString method in every class. */
+
 package GTU;
 
 import java.util.Scanner;
